@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2", "librosa", "nolds", "pylab", "entropy", "math", "matplotlib", "scipy", "numpy", "vmo"]
+requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2", "librosa", "nolds", "pylab", "entropy", "math", "matplotlib", "scipy", "numpy>=1.16", "vmo"]
 
 setup(
     name="NonlinearDynamics-VMO",

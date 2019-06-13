@@ -9,7 +9,7 @@ import vmo.analysis as van
 import vmo.analysis.segmentation as vse
 import csv
 import numpy as np
-np.set_printoptions(threshold='nan')
+#np.set_printoptions(threshold='nan')
 
 from collections import Counter
 
